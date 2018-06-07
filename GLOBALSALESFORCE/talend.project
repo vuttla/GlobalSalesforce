@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
-  <TalendProperties:Project xmi:id="_-UWsoWokEei2xJuH8yGmfA" label="GlobalSalesforce" language="java" technicalLabel="GLOBALSALESFORCE" author="_-UWsomokEei2xJuH8yGmfA" productVersion="Talend Integration Cloud Elastic Edition-6.5.1.20180116_1512" url="{&quot;location&quot;:&quot;https://github.com/vuttla/GlobalSalesforce/&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DQ" itemsRelationVersion="1.3" bigData="false">
+  <TalendProperties:Project xmi:id="_-UWsoWokEei2xJuH8yGmfA" label="GlobalSalesforce" description="Petra" language="java" technicalLabel="GLOBALSALESFORCE" author="_-UWsomokEei2xJuH8yGmfA" productVersion="Talend Integration Cloud Elastic Edition-6.5.1.20180116_1512" url="{&quot;location&quot;:&quot;https://github.com/vuttla/GlobalSalesforce/&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DQ" itemsRelationVersion="1.3" bigData="false">
     <technicalStatus xmi:id="__L704GokEei2xJuH8yGmfA" label="development" code="DEV"/>
     <technicalStatus xmi:id="__L704WokEei2xJuH8yGmfA" label="testing" code="TEST"/>
     <technicalStatus xmi:id="__L704mokEei2xJuH8yGmfA" label="production" code="PROD"/>
@@ -144,6 +144,24 @@
       <relatedItems xmi:id="_kIW8EGozEei2xJuH8yGmfA" id="TalendStringUtil" version="Latest" type="routine"/>
       <relatedItems xmi:id="_kIW8EWozEei2xJuH8yGmfA" id="DataQualityDependencies" version="Latest" type="routine"/>
       <relatedItems xmi:id="_kIW8EmozEei2xJuH8yGmfA" id="_Hfgl4GorEei2xJuH8yGmfA - Account" version="Latest" type="schema"/>
+    </ItemsRelations>
+    <ItemsRelations xmi:id="_lfefIGpjEeijAc1AExAFRg">
+      <baseItem xmi:id="_lfefIWpjEeijAc1AExAFRg" id="_UFteIGo7Eei2xJuH8yGmfA" version="0.1" type="job"/>
+      <relatedItems xmi:id="_lfefImpjEeijAc1AExAFRg" id="SQLike" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_lfefI2pjEeijAc1AExAFRg" id="Numeric" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_lfefJGpjEeijAc1AExAFRg" id="TalendString" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_lfefJWpjEeijAc1AExAFRg" id="DataMasking" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_lfefJmpjEeijAc1AExAFRg" id="DataOperation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_lfefJ2pjEeijAc1AExAFRg" id="StringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_lfefKGpjEeijAc1AExAFRg" id="TalendDataGenerator" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_lfefKWpjEeijAc1AExAFRg" id="DqStringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_lfefKmpjEeijAc1AExAFRg" id="TalendDate" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_lfefK2pjEeijAc1AExAFRg" id="DataQuality" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_lfefLGpjEeijAc1AExAFRg" id="Mathematical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_lfefLWpjEeijAc1AExAFRg" id="Relational" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_lfefLmpjEeijAc1AExAFRg" id="DQTechnical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_lfefL2pjEeijAc1AExAFRg" id="TalendStringUtil" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_lfefMGpjEeijAc1AExAFRg" id="DataQualityDependencies" version="Latest" type="routine"/>
     </ItemsRelations>
     <migrationTask xmi:id="__LMOAGokEei2xJuH8yGmfA" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="__LMOAWokEei2xJuH8yGmfA" id="org.talend.repository.localprovider.model.migration.ChangeXmiSerialization" breaks="5.1.1" version="5.1.2" status="noimpact"/>
@@ -509,4 +527,5 @@
     <migrationTask xmi:id="__1ESxmokEei2xJuH8yGmfA" id="org.talend.repository.model.migration.AutoUpdateRelationsMigrationTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
   </TalendProperties:Project>
   <TalendProperties:User xmi:id="_-UWsomokEei2xJuH8yGmfA" login="rao_vuttla@bat.com" firstName="Rao" lastName="Vuttla" type="DQ"/>
+  <TalendProperties:User xmi:id="_qOhlAWpfEeijAc1AExAFRg" login="pmassieh@bat.com" firstName="Patrice" lastName="Massieh" type="DQ"/>
 </xmi:XMI>
