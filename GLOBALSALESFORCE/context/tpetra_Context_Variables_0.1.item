@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_JSVAoGomEei2xJuH8yGmfA" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_JSVAoWomEei2xJuH8yGmfA" comment="" name="Source_File_Path" prompt="Source_File_Path?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_JSVAomomEei2xJuH8yGmfA" comment="" name="Traget_File_Path" prompt="Traget_File_Path?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_JSVAo2omEei2xJuH8yGmfA" comment="" name="Src_db_username" prompt="Src_db_username?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_JSVApGomEei2xJuH8yGmfA" comment="" name="Trg_db_Username" prompt="Trg_db_Username?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_JSVApWomEei2xJuH8yGmfA" comment="" name="Src_db_Password" prompt="Src_db_Password?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_JSVApmomEei2xJuH8yGmfA" comment="" name="Trg_db_Password" prompt="Trg_db_Password?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_JSVAp2omEei2xJuH8yGmfA" comment="" name="Frequency" prompt="Frequency?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_JSVAqGomEei2xJuH8yGmfA" comment="" name="Run_Date" prompt="Run_Date?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_JSVAqWomEei2xJuH8yGmfA" comment="" name="Load_Date" prompt="Load_Date?" promptNeeded="false" type="id_String" value=""/>
+</talendfile:ContextType>
