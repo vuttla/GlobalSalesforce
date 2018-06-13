@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_uL_YgG1yEeiqK6DIogX9-w" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_cq5q4G1zEeiqK6DIogX9-w" comment="" name="Sf_User_id" prompt="Sf_User_id?" promptNeeded="false" type="id_String" value="&quot;integration.petra@bat.com.dev02&quot;"/>
+  <contextParameter xmi:id="_cq5q4W1zEeiqK6DIogX9-w" comment="" name="Sf_Pasword" prompt="Sf_Pasword?" promptNeeded="false" type="id_String" value="&quot;LetMeInDev02PetraIntegration2G5249ZTweORuGcgSPUN9JVr9&quot;"/>
+  <contextParameter xmi:id="_cq5q4m1zEeiqK6DIogX9-w" comment="" name="Sf_URL" prompt="Sf_URL?" promptNeeded="false" type="id_String" value="&quot;http://petra--dev02.cs89.my.salesforce.com/services/Soap/u/39.0/&quot;"/>
+</talendfile:ContextType>

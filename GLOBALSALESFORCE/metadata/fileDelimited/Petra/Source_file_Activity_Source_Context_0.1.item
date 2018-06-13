@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_FyBekG2HEeiqK6DIogX9-w" name="Source_file_Activity_Source_Context" label="Source_file_Activity_Source_Context" dataPackage="_3dgpQGonEei2xJuH8yGmfA" Server="Localhost 127.0.0.1" FilePath="C:/Petra/Activity_Source.txt" Encoding="US-ASCII" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FooterValue="0" LimitValue="" FirstLineCaption="true" EscapeChar="&quot;\&quot;&quot;" TextEnclosure="&quot;\&quot;&quot;" splitRecord="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_3dgpQGonEei2xJuH8yGmfA" name="default" dataManager="_FyBekG2HEeiqK6DIogX9-w">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_3dgpQWonEei2xJuH8yGmfA" id="_4IQE0GomEei2xJuH8yGmfA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3dgpQmonEei2xJuH8yGmfA" label="Id" length="18" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3dgpQ2onEei2xJuH8yGmfA" label="ActivityCode__c" length="22" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3dgpRGonEei2xJuH8yGmfA" label="Name" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3dgpRWonEei2xJuH8yGmfA" label="Description__c" length="22" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3dgpRmonEei2xJuH8yGmfA" label="Status__c" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3dgpR2onEei2xJuH8yGmfA" label="PlanningOnlyActivity__c" length="5" talendType="id_Boolean" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3dgpSGonEei2xJuH8yGmfA" label="AdminActivity__c" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3dgpSWonEei2xJuH8yGmfA" label="ActivityGroup__c" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3dgpSmonEei2xJuH8yGmfA" label="MarketISO__c" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3dgpS2onEei2xJuH8yGmfA" label="AnaplanActivityId__c" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3dgpTGonEei2xJuH8yGmfA" label="AnaplanGroupId__c" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3dgpTWonEei2xJuH8yGmfA" label="StartDate__c" length="10" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3dgpTmonEei2xJuH8yGmfA" label="EndDate__c" length="10" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3dgpT2onEei2xJuH8yGmfA" label="Sequence__c" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3dgpUGonEei2xJuH8yGmfA" label="ivybat__Activity_Type__c" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3dgpUWonEei2xJuH8yGmfA" label="ActivityStdDuration" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3dgpUmonEei2xJuH8yGmfA" label="ivybat_Survey_c" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

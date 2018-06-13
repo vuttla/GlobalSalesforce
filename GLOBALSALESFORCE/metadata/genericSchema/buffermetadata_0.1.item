@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_ziem8mr_EeiyZJ_FfdgfUA" comment="connectionComment" label="connectionLabel" dataPackage="_ziem82r_EeiyZJ_FfdgfUA"/>
+  <TalendMetadata:GenericPackage xmi:id="_ziem82r_EeiyZJ_FfdgfUA" dataManager="_ziem8mr_EeiyZJ_FfdgfUA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_ziem9Gr_EeiyZJ_FfdgfUA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ziem9Wr_EeiyZJ_FfdgfUA" name="Id" id="7005" label="Id" length="18" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_ziem9mr_EeiyZJ_FfdgfUA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ziem92r_EeiyZJ_FfdgfUA" name="ActivityCode__c" id="7006" label="ActivityCode__c" length="22" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_ziem-Gr_EeiyZJ_FfdgfUA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ziem-Wr_EeiyZJ_FfdgfUA" name="Name" id="7007" label="Name" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_ziem-mr_EeiyZJ_FfdgfUA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ziem-2r_EeiyZJ_FfdgfUA" name="Description__c" id="7008" label="Description__c" length="22" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_ziem_Gr_EeiyZJ_FfdgfUA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ziem_Wr_EeiyZJ_FfdgfUA" name="Status__c" id="7009" label="Status__c" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_ziem_mr_EeiyZJ_FfdgfUA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ziem_2r_EeiyZJ_FfdgfUA" name="PlanningOnlyActivity__c" id="7010" label="PlanningOnlyActivity__c" length="5" talendType="id_Boolean" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_zienAGr_EeiyZJ_FfdgfUA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zienAWr_EeiyZJ_FfdgfUA" name="AdminActivity__c" id="7011" label="AdminActivity__c" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_zienAmr_EeiyZJ_FfdgfUA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zienA2r_EeiyZJ_FfdgfUA" name="ActivityGroup__c" id="7012" label="ActivityGroup__c" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_zienBGr_EeiyZJ_FfdgfUA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zienBWr_EeiyZJ_FfdgfUA" name="MarketISO__c" id="7013" label="MarketISO__c" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_zienBmr_EeiyZJ_FfdgfUA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zienB2r_EeiyZJ_FfdgfUA" name="AnaplanActivityId__c" id="7014" label="AnaplanActivityId__c" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_zienCGr_EeiyZJ_FfdgfUA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zienCWr_EeiyZJ_FfdgfUA" name="AnaplanGroupId__c" id="7015" label="AnaplanGroupId__c" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_zienCmr_EeiyZJ_FfdgfUA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zienC2r_EeiyZJ_FfdgfUA" name="StartDate__c" id="7016" label="StartDate__c" length="10" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_zienDGr_EeiyZJ_FfdgfUA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zienDWr_EeiyZJ_FfdgfUA" name="EndDate__c" id="7017" label="EndDate__c" length="10" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_zienDmr_EeiyZJ_FfdgfUA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zienD2r_EeiyZJ_FfdgfUA" name="Sequence__c" id="7018" label="Sequence__c" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_zienEGr_EeiyZJ_FfdgfUA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zienEWr_EeiyZJ_FfdgfUA" name="ivybat__Activity_Type__c" id="7019" label="ivybat__Activity_Type__c" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_zienEmr_EeiyZJ_FfdgfUA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zienE2r_EeiyZJ_FfdgfUA" name="ActivityStdDuration" id="7020" label="ActivityStdDuration" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_zienFGr_EeiyZJ_FfdgfUA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zienFWr_EeiyZJ_FfdgfUA" name="ivybat_Survey_c" id="7021" label="ivybat_Survey_c" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_zienFmr_EeiyZJ_FfdgfUA"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

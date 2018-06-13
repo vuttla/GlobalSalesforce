@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_JSVAoGomEei2xJuH8yGmfA" confirmationNeeded="false" name="Default">
-  <contextParameter xmi:id="_JSVAoWomEei2xJuH8yGmfA" comment="" name="SF_Src_File_Path" prompt="SF_Src_File_Path?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_JSVAoWomEei2xJuH8yGmfA" comment="" name="SF_Src_File_Path" prompt="SF_Src_File_Path?" promptNeeded="false" type="id_String" value="&quot;C:/Petra/Activity_Source.txt&quot;"/>
   <contextParameter xmi:id="_JSVAomomEei2xJuH8yGmfA" comment="" name="SF_Trg_File_Path" prompt="SF_Trg_File_Path?" promptNeeded="false" type="id_String" value=""/>
   <contextParameter xmi:id="_JSVAo2omEei2xJuH8yGmfA" comment="" name="Src_db_username" prompt="Src_db_username?" promptNeeded="false" type="id_String" value=""/>
   <contextParameter xmi:id="_JSVApGomEei2xJuH8yGmfA" comment="" name="Trg_db_Username" prompt="Trg_db_Username?" promptNeeded="false" type="id_String" value=""/>

@@ -2,8 +2,6 @@
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
   <context confirmationNeeded="false" name="Default"/>
   <parameters>
-    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
-    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
     <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
     <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" value="" show="false"/>
     <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" value="" show="false"/>
@@ -96,71 +94,20 @@
     <elementParameter field="TEXT" name="FOOTER_LIBRARY" value="" show="false"/>
     <elementParameter field="TEXT" name="FOOTER_CODE" value="" show="false"/>
     <elementParameter field="TEXT" name="FOOTER_IMPORT" value="" show="false"/>
+    <routinesParameter id="__Z8btmokEei2xJuH8yGmfA" name="DQTechnical"/>
+    <routinesParameter id="__ZDD0GokEei2xJuH8yGmfA" name="DataMasking"/>
     <routinesParameter id="__TFlwGokEei2xJuH8yGmfA" name="DataOperation"/>
+    <routinesParameter id="__ZfvxmokEei2xJuH8yGmfA" name="DataQualityDependencies"/>
+    <routinesParameter id="__ZWl0GokEei2xJuH8yGmfA" name="DataQuality"/>
+    <routinesParameter id="__ZyqsGokEei2xJuH8yGmfA" name="DqStringHandling"/>
     <routinesParameter id="__V63UGokEei2xJuH8yGmfA" name="Mathematical"/>
     <routinesParameter id="__W0PMGokEei2xJuH8yGmfA" name="Numeric"/>
     <routinesParameter id="__XQ7IGokEei2xJuH8yGmfA" name="Relational"/>
+    <routinesParameter id="__Y554GokEei2xJuH8yGmfA" name="SQLike"/>
     <routinesParameter id="__Xj2EGokEei2xJuH8yGmfA" name="StringHandling"/>
     <routinesParameter id="__X2xAGokEei2xJuH8yGmfA" name="TalendDataGenerator"/>
     <routinesParameter id="__YKTAGokEei2xJuH8yGmfA" name="TalendDate"/>
-    <routinesParameter id="__YTc9mokEei2xJuH8yGmfA" name="TalendString"/>
     <routinesParameter id="__YmX5mokEei2xJuH8yGmfA" name="TalendStringUtil"/>
-    <routinesParameter id="__Y554GokEei2xJuH8yGmfA" name="SQLike"/>
-    <routinesParameter id="__ZDD0GokEei2xJuH8yGmfA" name="DataMasking"/>
-    <routinesParameter id="__ZWl0GokEei2xJuH8yGmfA" name="DataQuality"/>
-    <routinesParameter id="__ZfvxmokEei2xJuH8yGmfA" name="DataQualityDependencies"/>
-    <routinesParameter id="__ZyqsGokEei2xJuH8yGmfA" name="DqStringHandling"/>
-    <routinesParameter id="__Z8btmokEei2xJuH8yGmfA" name="DQTechnical"/>
+    <routinesParameter id="__YTc9mokEei2xJuH8yGmfA" name="TalendString"/>
   </parameters>
-  <node componentName="tREST" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="64" posY="96">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tREST_1" show="false"/>
-    <elementParameter field="TEXT" name="URL" value="&quot;https://api.anaplan.com/1/3/workspaces/&quot;"/>
-    <elementParameter field="CLOSED_LIST" name="METHOD" value="GET"/>
-    <elementParameter field="TABLE" name="HEADERS">
-      <elementValue elementRef="NAME" value="&quot;sanjalisalian@boaweb.com&quot;"/>
-      <elementValue elementRef="VALUE" value="&quot;Pr0file1&quot;"/>
-    </elementParameter>
-    <elementParameter field="MEMO" name="BODY" value="&quot;&quot;" show="false"/>
-    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" name="tREST_1">
-      <column defaultValue="" key="false" length="0" name="Body" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="0" name="ERROR_CODE" nullable="true" precision="0" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
-    </metadata>
-  </node>
-  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="416" posY="96">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLogRow_1" show="false"/>
-    <elementParameter field="RADIO" name="BASIC_MODE" value="false"/>
-    <elementParameter field="RADIO" name="TABLE_PRINT" value="true"/>
-    <elementParameter field="RADIO" name="VERTICAL" value="false"/>
-    <elementParameter field="RADIO" name="PRINT_UNIQUE" value="true" show="false"/>
-    <elementParameter field="RADIO" name="PRINT_LABEL" value="false" show="false"/>
-    <elementParameter field="RADIO" name="PRINT_UNIQUE_LABEL" value="false" show="false"/>
-    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;|&quot;" show="false"/>
-    <elementParameter field="CHECK" name="PRINT_HEADER" value="false" show="false"/>
-    <elementParameter field="CHECK" name="PRINT_UNIQUE_NAME" value="false" show="false"/>
-    <elementParameter field="CHECK" name="PRINT_COLNAMES" value="false" show="false"/>
-    <elementParameter field="CHECK" name="USE_FIXED_LENGTH" value="false" show="false"/>
-    <elementParameter field="TABLE" name="LENGTHS" show="false">
-      <elementValue elementRef="SCHEMA_COLUMN" value="Body"/>
-      <elementValue elementRef="LENGTH" value="10"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="ERROR_CODE"/>
-      <elementValue elementRef="LENGTH" value="10"/>
-    </elementParameter>
-    <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
-    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
-    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" name="tLogRow_1">
-      <column defaultValue="" key="false" length="0" name="Body" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="0" name="ERROR_CODE" nullable="true" precision="0" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
-    </metadata>
-  </node>
-  <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tREST_1" offsetLabelX="0" offsetLabelY="0" source="tREST_1" target="tLogRow_1">
-    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row1" show="false"/>
-  </connection>
-  <subjob>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tREST_1" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
-  </subjob>
 </talendfile:ProcessType>
